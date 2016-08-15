@@ -14,4 +14,8 @@ public class AbstractScreen {
     protected Screen getDriver() {
         return Driver.getInstance();
     }
+
+    protected String toString() {
+    	System.out.println("toString");
+    }
 }
