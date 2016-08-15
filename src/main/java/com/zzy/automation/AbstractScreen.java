@@ -16,6 +16,6 @@ public class AbstractScreen {
     }
 
     protected String toString() {
-    	System.out.println("ok");
+    	System.out.println("OK!");
     }
 }
